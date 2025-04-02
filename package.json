@@ -1,0 +1,16 @@
+{
+  "name": "dungbhumi-editor-cypress",
+  "version": "1.0.0",
+  "description": "Cypress Testing with Multiple Report Formats",
+  "scripts": {
+    "test": "cypress run",
+    "test:html": "cypress run --reporter mochawesome",
+    "test:xml": "cypress run --reporter junit"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.0",
+    "cypress-image-snapshot": "^4.0.1",
+    "cypress-mochawesome-reporter": "^3.8.1",
+    "mocha-junit-reporter": "^2.2.1"
+  }
+}
